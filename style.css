@@ -1,0 +1,45 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Kotak input */
+.post-box {
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-box input {
+  width: 70%;
+  padding: 8px;
+}
+
+.post-box button {
+  padding: 8px 12px;
+}
+
+/* Feed */
+#feed {
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.post {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
